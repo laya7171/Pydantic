@@ -24,3 +24,4 @@ insert_patient_data("John Doe", "thirty") #now here comes the need for type chec
 #    raise TypeError("Type doesnt match")
 
 #this is not a good solution because it requires manual checking and is not scalable
+#similar case occur for ValueError, some might enter negative age or age as a string
